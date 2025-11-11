@@ -55,3 +55,17 @@ print(15/6)
 print(15//6)
 print(5%3) # 5 power 3
 print(2**4)
+
+print("\n")
+
+a = "1"
+# a = 1
+b = "2"
+# b = 2
+print(int(a) + int(b))
+
+# Implicit TypeCasting
+c = 1.9
+d = 8
+
+print(c + d)
