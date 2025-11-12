@@ -1,0 +1,23 @@
+#String
+name = "Harry"
+friend = "Rohan"
+anotherFriend = 'Lovish'
+# multiple line e string er value rakhte ' ' ' or " " " 
+apple = '''He said, 
+Hi 
+hey I am good
+"I want to eat an apple'''
+ 
+print("Hello, " + name)
+# print(apple) 
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+# print(name[5]) # Throws an error
+
+print("Lets use a for loop\n")
+for character in apple:
+    print(character)
+
